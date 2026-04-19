@@ -17,7 +17,7 @@ The program will raise an error if the CSV meets any of the following conditions
 - Missing a header (not to be confused with a blank header)
 
 The program will detect blank headers and insert a placeholder column called "Unnamed_Column_(index)" 
-Header1,__,Header3,Header4 --> Header1,Unnamed_Column_2,Header3,Header4
+Header1,__,Header3,Header4 --> Header1,Unnamed_Column_1,Header3,Header4
 
 The program accepts CSVs with any number of columns or rows featuring numerical or categorical data making it a viable option for unpredictable, real-world data. 
 
